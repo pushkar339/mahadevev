@@ -15,11 +15,8 @@ export const Header: React.FC = () => {
         <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-black text-white">
           <Zap size={20} fill="currentColor" />
         </div>
-        <span className="text-lg md:text-xl font-bold tracking-tight text-zinc-900 uppercase hidden sm:inline">
+        <span className="text-sm md:text-xl font-bold tracking-tight text-zinc-900 uppercase">
           {t.header.brand}
-        </span>
-        <span className="text-lg font-bold tracking-tight text-zinc-900 uppercase sm:hidden">
-          MA
         </span>
       </div>
       

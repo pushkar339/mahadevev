@@ -55,11 +55,13 @@ export const CTA: React.FC = () => {
                     <div className="space-y-4 w-full flex-grow mb-6">
                         <div className="flex flex-col transition-all duration-300 hover:scale-105">
                             <span className="text-xs text-zinc-400 uppercase font-semibold mb-1">{t.cta.sales}</span>
-                            <span className="text-lg font-medium text-zinc-900 transition-colors duration-300 group-hover:text-zinc-700">9756137463</span>
+                            <a href="tel:9756137463" className="text-lg font-medium text-zinc-900 transition-colors duration-300 group-hover:text-zinc-700">
+                                9756137463
+                            </a>
                         </div>
                         <div className="flex flex-col transition-all duration-300 hover:scale-105">
                              <span className="text-xs text-zinc-400 uppercase font-semibold mb-1">{t.cta.email}</span>
-                             <span className="text-lg text-zinc-600 transition-colors duration-300 group-hover:text-zinc-500">info@mahadevautomotives.com</span>
+                             <span className="text-lg text-zinc-600 transition-colors duration-300 group-hover:text-zinc-500">mahadevautomotivemeerut@gmail.com</span>
                         </div>
                     </div>
                     <div className="flex items-center gap-2 text-zinc-500 text-sm transition-colors duration-300 group-hover:text-zinc-400">
