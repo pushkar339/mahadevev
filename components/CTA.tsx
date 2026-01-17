@@ -55,7 +55,7 @@ export const CTA: React.FC = () => {
                     <div className="space-y-4 w-full flex-grow mb-6">
                         <div className="flex flex-col transition-all duration-300 hover:scale-105">
                             <span className="text-xs text-zinc-400 uppercase font-semibold mb-1">{t.cta.sales}</span>
-                            <span className="text-lg font-medium text-zinc-900 transition-colors duration-300 group-hover:text-zinc-700">9808124592</span>
+                            <span className="text-lg font-medium text-zinc-900 transition-colors duration-300 group-hover:text-zinc-700">9756137463</span>
                         </div>
                         <div className="flex flex-col transition-all duration-300 hover:scale-105">
                              <span className="text-xs text-zinc-400 uppercase font-semibold mb-1">{t.cta.email}</span>

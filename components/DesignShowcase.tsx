@@ -5,10 +5,10 @@ export const DesignShowcase: React.FC = () => {
   const { t } = useLanguage();
 
   const images = [
-      "./assets/crown_rider.png",
-      "./assets/precision.png",
-      "./assets/night.png",
-      "./assets/freedom.png"
+      "/assets/crown_rider.png",
+      "/assets/precision.png",
+      "/assets/night.png",
+      "/assets/freedom.png"
   ];
 
   return (
