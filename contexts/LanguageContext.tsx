@@ -17,7 +17,7 @@ const translations = {
       title1: "Mahadev",
       title2: "Automotive",
       tagline: "RIDE INTO THE FUTURE",
-      sub: "Your trusted partner for premium EV scooters, expert service, and reliable repair in Moradabad.",
+      sub: "Your trusted partner for premium EV scooters, expert service, and reliable repair in Meerut.",
       btnPrimary: "View Scooters",
       btnSecondary: "Our Services"
     },
