@@ -136,12 +136,12 @@ const translations = {
       sales: "Sales & Support",
       email: "Email",
       hours: "Mon - Sat: 10:00 AM - 8:00 PM",
-      footer: "© 2024 Mahadev Automotives. All rights reserved."
+      footer: "© 2024 Mahadev Automotive. All rights reserved."
     }
   },
   hi: {
     header: {
-      brand: "महादेव ऑटोमोटिव्स",
+      brand: "महादेव ऑटोमोटिव",
       services: "सेवाएं",
       scooters: "स्कूटर्स",
       gallery: "गैलरी",
@@ -151,7 +151,7 @@ const translations = {
     hero: {
       tag: "प्रीमियम ईवी डीलरशिप",
       title1: "महादेव",
-      title2: "ऑटोमोटिव्स",
+      title2: "ऑटोमोटिव",
       tagline: "भविष्य की ओर बढ़ें",
       sub: "प्रीमियम ईवी स्कूटर्स, विशेषज्ञ सेवा और विश्वसनीय मरम्मत के लिए आपका भरोसेमंद साथी।",
       btnPrimary: "स्कूटर्स देखें",
@@ -272,7 +272,7 @@ const translations = {
       sales: "सेल्स और सपोर्ट",
       email: "ईमेल",
       hours: "सोम - शनि: 10:00 AM - 8:00 PM",
-      footer: "© 2024 महादेव ऑटोमोटिव्स। सर्वाधिकार सुरक्षित।"
+      footer: "© 2024 महादेव ऑटोमोटिव। सर्वाधिकार सुरक्षित।"
     }
   }
 };
