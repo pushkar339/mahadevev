@@ -27,7 +27,13 @@ const images = [
   "/gallery/IMG-20260116-WA0012.jpg",
   "/gallery/IMG-20260116-WA0013.jpg",
   "/gallery/IMG-20260116-WA0014.jpg",
-  "/gallery/IMG-20260116-WA0015.jpg"
+  "/gallery/IMG-20260116-WA0015.jpg",
+  "/gallery/IMG-20260221-WA0001.jpeg",
+  "/gallery/IMG-20260221-WA0002.jpeg",
+  "/gallery/IMG-20260221-WA0003.jpeg",
+  "/gallery/IMG-20260221-WA0004.jpeg",
+  "/gallery/IMG-20260221-WA0005.jpeg",
+  "/gallery/IMG-20260221-WA0006.jpeg"
 ];
 
 export const ShowroomGallery: React.FC = () => {
