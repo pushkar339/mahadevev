@@ -36,7 +36,9 @@ const images = [
   "/gallery/IMG-20260221-WA0006.jpeg",
   "/gallery/IMG-20260322-WA0008.jpg",
   "/gallery/IMG-20260322-WA0009.jpg",
-  "/gallery/IMG-20260322-WA0010.jpg"
+  "/gallery/IMG-20260322-WA0010.jpg",
+  "/gallery/IMG-20260606-WA0002.jpg",
+  "/gallery/IMG-20260606-WA0003.jpg"
 ];
 
 export const ShowroomGallery: React.FC = () => {
