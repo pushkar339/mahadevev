@@ -47,7 +47,7 @@ export const ShowroomGallery: React.FC = () => {
 
   // Split images into rows for horizontal scrolling
   const rows = [];
-  const imagesPerRow = 5;
+  const imagesPerRow = 6;
   for (let i = 0; i < images.length; i += imagesPerRow) {
     rows.push(images.slice(i, i + imagesPerRow));
   }
