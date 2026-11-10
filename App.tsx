@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Features } from './components/Features';
@@ -13,6 +13,17 @@ import { Comments } from './components/Comments';
 import { LanguageProvider } from './contexts/LanguageContext';
 
 function App() {
+  useEffect(() => {
+    if (window.location.hash !== '#comments') return;
+
+    const scrollToComments = () => {
+      document.getElementById('comments')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
+    const frame = window.requestAnimationFrame(scrollToComments);
+    return () => window.cancelAnimationFrame(frame);
+  }, []);
+
   return (
     <LanguageProvider>
       <div className="min-h-screen bg-white text-zinc-950 selection:bg-zinc-200 selection:text-black">
