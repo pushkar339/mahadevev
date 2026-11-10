@@ -25,6 +25,7 @@ export const Header: React.FC = () => {
         <a href="#services" className="nav-link">{t.header.services}</a>
         <a href="#models" className="nav-link">{t.header.scooters}</a>
         <a href="#gallery" className="nav-link">{t.header.gallery}</a>
+        <a href="#comments" className="nav-link">{t.header.comments}</a>
         <a href="#contact" className="nav-link">{t.header.contact}</a>
       </nav>
 
@@ -57,6 +58,7 @@ export const Header: React.FC = () => {
           <a href="#services" className="mobile-link">{t.header.services}</a>
           <a href="#models" className="mobile-link">{t.header.scooters}</a>
           <a href="#gallery" className="mobile-link">{t.header.gallery}</a>
+          <a href="#comments" className="mobile-link">{t.header.comments}</a>
           <a href="#contact" className="mobile-link border-t mt-2 pt-4">
             <div className="flex items-center gap-2">
               <Phone size={16} />

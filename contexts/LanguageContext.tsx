@@ -9,6 +9,7 @@ const translations = {
       services: "Services",
       scooters: "Scooters",
       gallery: "Gallery",
+      comments: "Comments",
       contact: "Contact",
       call: "Call Us"
     },
@@ -145,6 +146,7 @@ const translations = {
       services: "सेवाएं",
       scooters: "स्कूटर्स",
       gallery: "गैलरी",
+      comments: "टिप्पणियां",
       contact: "संपर्क",
       call: "कॉल करें"
     },

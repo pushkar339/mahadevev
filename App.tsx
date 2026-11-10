@@ -9,6 +9,7 @@ import { ShowroomGallery } from './components/ShowroomGallery';
 import { TechSpecs } from './components/TechSpecs';
 import { Proof } from './components/Proof';
 import { CTA } from './components/CTA';
+import { Comments } from './components/Comments';
 import { LanguageProvider } from './contexts/LanguageContext';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
             <ShowroomGallery />
           </div>
           <Proof />
+          <Comments />
           <CTA />
         </main>
       </div>
